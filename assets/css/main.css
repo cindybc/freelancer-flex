@@ -48,9 +48,9 @@ h1{
 	padding: 60px 0;
 }
 .textParrafo{
-	margin: 0 30px;
+	margin: 0 100px;
 }
-.btn{
+.btn, .botonSend{
 	margin: 20px;
     background-color: transparent;
     color: #fff;
@@ -60,4 +60,19 @@ h1{
 .btn:hover{
 	background-color: #fff;
 	color: #18BC9C;
+}
+
+/*seccion4*/
+.formulario{
+	flex-direction: column;
+    align-items: center;
+}
+.botonSend{
+	background-color: #18BC9C;
+}
+.form-group{
+	width: 50%;
+}
+textarea{
+	width: 100%;
 }
