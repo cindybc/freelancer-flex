@@ -2,10 +2,16 @@
 	box-sizing: border-box;
 }
 
-.navbar-inverse{
+.navbar-inverse, footer{
 	background-color: #2C3E50;
 }
-
+.menu .navbar-nav li a{
+	color: #fff;
+}
+.menu .navbar-nav li a:hover{
+	color: #fff;
+	background-color: #18BC9C;
+}
 .flex-container, .enlace{
 	display: flex;
 	justify-content: center;
@@ -75,4 +81,9 @@ h1{
 }
 textarea{
 	width: 100%;
+}
+
+/*footer*/
+footer{
+    color: #fff;
 }
